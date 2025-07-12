@@ -71,6 +71,7 @@ body {
 @layer base {
   .special-font b{
     font-family: "zentry";
+    font-weight: 500;
     font-feature-settings: "ss01" on;
   }
 }
@@ -78,8 +79,8 @@ body {
 @utility hero-heading {
   text-transform: uppercase;
   font-family: "zentry";
-  font-weight: 900;
-  font-size: 3rem;
+  font-weight: 500;
+  font-size: 12rem;
 }
 
 @utility about-subtext {
@@ -110,7 +111,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  font-size: 3.5rem;
+  font-size: 6rem;
   text-transform: uppercase;
   line-height: 0.8;
   color: white;
@@ -118,7 +119,7 @@ body {
 
 @utility animated-word {
   font-family: "zentry";
-  font-weight: 900;
+  font-weight: 500;
   opacity: 0;
   transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
   transform-origin: 50% 50% -150px !important;
@@ -143,7 +144,7 @@ body {
 @utility bento-title {
   text-transform: uppercase;
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 500;
   font-family: "zentry";
 }
 
